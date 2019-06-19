@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WasteApp</string>
+
+
+<string name="title">Report the waste</string>
+<string name="title_login">Login to Report the waste</string>
+<string name="username">Username</string>
+<string name="password">Password</string>
+
+</resources>
