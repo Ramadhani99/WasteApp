@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/failedView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="16dp"
+    android:visibility="gone"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/failedMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-light"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+        android:text="please check your internet connection and try again"/>
+    <TextView
+        android:id="@+id/tryaAgainBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/roundbutton"
+        android:padding="4dp"
+        android:textSize="16dp"
+        android:textColor="@color/background"
+        android:text="TRY AGAIN"/>
+</LinearLayout>

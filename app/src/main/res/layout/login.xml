@@ -67,6 +67,7 @@
             android:layout_gravity="top|center"
             android:layout_margin="16dp"
             android:drawablePadding="8dp"
+            android:inputType="text"
 
             android:drawableLeft="@drawable/ic_sentiment_dissatisfied_black_24dp"
             />

@@ -10,7 +10,7 @@ import com.loopj.android.http.TextHttpResponseHandler;
 
 public class ServerConnection {
 
-    private static String MAIN_URL="http://157.230.143.237/api/";
+    private static String MAIN_URL="http://192.168.43.101:8000/api/";
     private static AsyncHttpClient asyncHttpClient=new AsyncHttpClient();
 
     public static void post(String url, RequestParams params, TextHttpResponseHandler responseHandler){
@@ -18,6 +18,11 @@ public class ServerConnection {
     }
     public static void get(String url, RequestParams params, TextHttpResponseHandler responseHandler){
         asyncHttpClient.get(AbsoluteUrl(url),params,responseHandler);
+
+    }
+
+    public static void patch(String url, RequestParams params, TextHttpResponseHandler responseHandler){
+        asyncHttpClient.patch(AbsoluteUrl(url),params,responseHandler);
     }
 
     public static String AbsoluteUrl(String url){
